@@ -41,13 +41,13 @@ header {
     margin: 0em 3.5em 1em 3.5em;
     padding: 1em -1em;
     border-radius: 10px;
-    background: #f1efca url("images/cloudssvg2-01.svg") no-repeat;
+    background: transparent url("images/cloudssvg2-01.svg") no-repeat;
     background-position-x: center;
     background-size: 100vw;
 }
 h1 {
     color: azure;
     text-align: center;
-    font-size:4.5em;
+    font-size:3.5em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
