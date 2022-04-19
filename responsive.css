@@ -44,7 +44,7 @@ header {
     background: transparent url("images/cloudssvg2-01.svg") no-repeat;
     background-position-x: center;
     background-size: 120vw;
-    height: 7em;
+   
 }
 h1 {
     color: azure;
@@ -58,9 +58,20 @@ p {
 }
 /*NAVIGATION*/
 #topnav {
-    margin-top: -0.5em;
+    margin-top: 1em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+}
+#topnav li {
+    width:auto;
+   display: flex;
+    
+    margin: 1em 5em;
+    font-size: 1em;
+}
+
+body {
+    background-color: #ffead0;
 }
