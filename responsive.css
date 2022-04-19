@@ -1,0 +1,53 @@
+* {
+    border: 1px transparent solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+    border-radius: 10px;
+}
+/*Link specs*/
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+ul a {
+    background-color: #f76f8e;
+    border-radius: 10px;
+    padding: .5em 1em;
+}
+a:hover, h5:hover, h4.button:hover, input[type=submit]:hover {
+    background-color: #555;
+    color: whitesmoke;
+}
+footer a:hover, main a:hover {
+    background-color: transparent;
+    color: black;
+}
+a:active, input[type=submit]:active {
+    color: black;
+    background-color: rgb(45, 66, 66);
+}
+a:visited {
+    color: whitesmoke;
+}
+#current {
+    background-color: #bb3151;
+    color: white;
+}
+/*Header*/
+header {
+    box-sizing: border-box;
+    margin: 0em 3.5em 1em 3.5em;
+    padding: 1em -1em;
+    border-radius: 10px;
+    background: #f1efca url("images/cloudssvg2-01.svg") no-repeat;
+    background-position-x: center;
+    background-size: 100vw;
+}
+h1 {
+    color: azure;
+    text-align: center;
+    font-size:4.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
