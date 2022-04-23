@@ -227,6 +227,25 @@ margin-top: .5em;}
 #float {width:80vw;
 margin: auto;}
 
+.pypro {
+    
+    border-radius: 10px;
+    margin:2em 0;
+    padding-bottom: 3em;
+    background-color: #f7d5ab;
+    border: red solid 1px;
+    
+}
+.pypro p {
+    font-size: 1.3em;
+    font-weight: 200;
+    text-align: center;
+    
+}
+
+.pypro img {width: 80vw;
+    margin: 1em;
+}
 
 
 
@@ -238,7 +257,7 @@ margin: auto;}
         grid-row: inherit;}
         
         #portfolio-full img {width: 28.3vw;
-            margin: 1.5em;
+            margin: 1.5em;}
 
     footer a {margin: 4em;
     }
@@ -254,6 +273,28 @@ margin: auto;}
     }
     #blank {clear: right;
     }
+    #pythongrid {
+        display:grid;
+       grid:[firstrow] "pro1" "pro2" 90px
+       [secondrow] "pro3 pro4" 90px
+       [thirdrow] "pro5 pro6" 90px
+       "pro7 pro8" 90px;
+        gap: 20px 20px;
+        
+        
+
+
+    }
+   
+    
+    #pro1 {grid-area: pro1;}
+    #pro2 {grid-area: pro2 ;}
+    #pro3 {grid-area: pro3;}
+    #pro4 {grid-area: pro4;}
+    #pro5 {grid-area: pro5;}
+    #pro6 {grid-area: pro6;}
+    #pro7 {grid-area: pro7;}
+    #pro8 {grid-area: pro8;}
     
  }
 
