@@ -58,20 +58,149 @@ p {
 }
 /*NAVIGATION*/
 #topnav {
-    margin-top: 1em;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-#topnav li {
-    width:auto;
-   display: flex;
+    margin-top: -0.5em;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
     
-    margin: 1em 5em;
-    font-size: 1em;
-}
+ #topnav li {
+        width: auto;
+         
+         display: flex;
+         
+         
+         text-align: center;
+         margin: 0 5em;
+         
+         font-size: 1em;
+ }
 
 body {
     background-color: #ffead0;
 }
+/* ABOUT SECTION */
+
+#about {
+    width: 90vw;
+    margin: 2em auto;
+    
+    border: double rgb(175, 175, 175) 3px;
+    border-radius: 10px;
+    
+}
+#roles, #me {
+    
+    margin: 0em 2em;
+    padding: 1em;
+    align-self: center;
+}
+#para, #para1, #para2 {
+    text-align: left;
+}
+h2 { 
+    font-size: 2.5em;
+    color: #bb3151;
+    text-align: center;
+}
+h3 {
+    color: #bb3151 ;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 2em;
+}
+.button {
+    padding:  1em;
+    margin: 0 0 0 0;
+    background-color: #bb3151;
+    border-radius: 12px;
+}
+#portfolio  {
+    width:90vw;
+    margin: 2em auto;
+    
+    border: double rgb(175, 175, 175) 3px;
+    border-radius: 10px;
+    
+}
+#portfolio img {
+    
+    width: 75%;
+    margin:  0em 2em 0em 2em;
+    padding: 1em;
+    align-self: center;
+    border-radius: 10px;
+    
+    
+}
+#portfolio, footer {
+    background-color: #5c946e;
+    border-radius: 30px;
+}
+#portpara {
+    align-self: center;
+    margin: 0em 2em;
+    padding: 1em;
+}
+
+/*FORM */
+#contact {
+    margin: -5em 1em 1em 1em;
+    
+    
+}
+
+form {
+    background-color: #f7d5ab;
+    padding: 1em 5em;
+    border-radius: 30px;
+    margin-bottom: 1em;
+}
+input, textarea {padding: 0.5em;
+    margin: .5em 0em;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+input[type=submit] {
+    background-color: #bb3151;
+    color: white;
+    margin: 0em 1em;
+    font-variant: small-caps;
+}
+footer {
+    font-variant: small-caps;
+    font-variant-numeric: oldstyle-nums;
+    font-size: smaller;
+   margin: auto;
+    text-align: center;
+    justify-content: center;
+   
+    
+ 
+}
+#footer-nav, footer h4, footer p {margin-left: 5em;}
+footer a {
+   
+    margin: 1em;
+    
+}
+
+footer img {
+    border-radius: 0px;
+   
+}
+h5 {float: right;
+    border-radius: 50%;
+    font-size: smaller;
+    text-align: center;
+    justify-content: center;
+    line-height: 2.2em;
+     background-color: #bb3151;
+     width: 5em;
+     height: 5em;
+     padding: 1em 1.2em 1em 1em ;
+     margin-right: 1em;
+     margin-top: 2.5em;
+     
+ }
