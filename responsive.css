@@ -16,7 +16,7 @@ ul a {
     border-radius: 10px;
     padding: .5em 1em;
 }
-a:hover, h5:hover, h4.button:hover, input[type=submit]:hover {
+a:hover, h5:hover, .button:hover, h4.button:hover, input[type=submit]:hover {
     background-color: #555;
     color: whitesmoke;
 }
@@ -157,6 +157,10 @@ h3 {
     
     
 }
+#contact {
+    text-align: center;
+}
+
 
 form {
     background-color: #f7d5ab;
@@ -297,7 +301,7 @@ margin: auto;}
 
 #pythongrid {
         display:grid;
-        grid-template-columns:  repeat(4, 20vw);
+        grid-template-columns:  repeat(4, 19vw);
         grid-template-rows: repeat(2, 40vh);
         grid-template-areas: 
         "one two three four" "five six seven eight" ;
@@ -307,20 +311,23 @@ margin: auto;}
         align-items: center;
         justify-content: space-between;
     }
-    .pypro {width: 20vw;
+    .pypro {width: 19vw;
         margin: 5.5em 1em;
        
-        padding: 0 0 2em 0em;
+        padding: 0 0 2vw 0em;
         text-align: center;
         
         
        
     }
-    .pypro .button {
-        font-size: 1vw;
-        padding: 1vw;
+    .pypro p {
+        padding-top: -5vh;
     }
-    .pypro img {width: 17vw;
+    .pypro .button {
+        font-size: .8vw;
+        padding: .8vw;
+    }
+    .pypro img {width: 16vw;
     }
     
     #pro1 {grid-area: one;
@@ -350,8 +357,14 @@ margin: auto;}
    width: 80%;
    margin: 1em
    }
-
-    
+form legend {
+    color: #bb3151;
+    font-weight: bolder;
+    font-size:2em;
+    position:  relative;
+    top: 20vh;
+    left: .7vw;
+    text-align: left;
 }
  @media screen and (min-width: 1000px) {
     #about {
