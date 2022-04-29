@@ -368,6 +368,7 @@ form legend {
     left: .7vw;
     text-align: left;
 }
+}
  @media screen and (min-width: 1000px) {
     #about {
         display: flex;
@@ -382,8 +383,8 @@ form legend {
         }
     
     
-    #me img {margin: 2em 1em 5em 5em;
-            width: 30vw;}
-
-
+    #me img {
+        margin: 2em 1em 5em 5em;
+            width: 30vw;
+        }
 }
