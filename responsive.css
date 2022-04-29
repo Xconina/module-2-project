@@ -253,7 +253,9 @@ margin: auto;}
     margin: 1em;
 }
 
-
+.makelarger {
+    font-size: 1.5em;
+}
 
 
  @media  screen and (min-width: 768px) {
