@@ -260,9 +260,11 @@ margin: auto;}
 #forhidden{
    color: whitesmoke;
    
+   
 }
+
 #star {
-    width: 40vw;
+    width: 90vw;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -352,7 +354,11 @@ margin: auto;}
     #pro8{grid-area: eight;}
 
 
-   
+   #star {
+       width: 50vw;
+       margin-left: auto;
+       margin-right: auto;
+   }
     
  }
 @media  screen and (min-width:850px) {  
