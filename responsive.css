@@ -153,13 +153,12 @@ h3 {
 /*FORM */
 #contact {
     margin: -5em 0em 1em 0em;
-    
-    
-    
-}
-#contact {
     text-align: center;
+    align-content: center;
+    
+    
 }
+
 
 
 form {
@@ -372,20 +371,27 @@ margin: auto;}
    width: 325%;
    padding: 2em 4em;
 }
-#portfolio img {
+#portfolio .col img {
    width: 80%;
-   margin: 1em
+   margin: 1em;
+   border-radius: 15px;
    }
-form legend {
-    color: #bb3151;
-    font-weight: bolder;
-    font-size:2em;
-    position:  relative;
-    top: 20vh;
-    left: .7vw;
-    text-align: left;
+
 }
+@media screen and (min-width: 940px){
+    
+    form legend {
+        color: #bb3151;
+        font-weight: bolder;
+        font-size:2em;
+        position:  relative;
+        top: 20vh;
+        left: .7vw;
+        text-align: left;}
+    
+
 }
+
  @media screen and (min-width: 1000px) {
     #about {
         display: flex;
